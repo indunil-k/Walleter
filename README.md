@@ -11,23 +11,40 @@ A Next.js TypeScript application that allows users to connect their wallets and 
 
 ## Getting Started
 
-First, install the dependencies:
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/indunil-k/Walleter.git
+cd Walleter
+```
+
+2. Install the dependencies:
 ```bash
 npm install
 # or
 yarn install
 ```
 
-Then, run the development server:
-
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Built With
+
+- [Next.js](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Mesh SDK](https://meshjs.dev/) - Cardano wallet integration
 
 ## Learn More
 
