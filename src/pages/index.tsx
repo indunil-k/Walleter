@@ -2,6 +2,7 @@ import { useState } from "react";
 import type { NextPage } from "next";
 import { useWallet } from '@meshsdk/react';
 import { CardanoWallet } from '@meshsdk/react';
+import Link from 'next/link';
 
 const Home: NextPage = () => {
   const { connected, wallet } = useWallet();
@@ -20,7 +21,14 @@ const Home: NextPage = () => {
   return (
     <div>
       <h1>Connect Wallet</h1>
-      <CardanoWallet />
+      <div className="mb-20">
+        <CardanoWallet />
+      </div>
+
+      <Link href="/hello" className="bg-sky-600 text-white py-2 px-4 rounded-lg hover:bg-sky-700 transition mb-20">
+            Hello World Smart Contract
+        </Link>
+
       {connected && (
         <>
           <h1>Get Wallet Assets</h1>
