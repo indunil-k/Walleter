@@ -29,6 +29,15 @@ A comprehensive Next.js TypeScript application for learning Cardano blockchain d
 - Follow CIP-25 metadata standards
 - Understand token policies
 
+### 4. **Voting DApp** (`/voting`)
+**Expert-level governance system**
+- Decentralized voting with accept/reject options
+- Anti-spam protection and double-vote prevention
+- Complete integration of all four tools (Aiken + Mesh + Blockfrost + Wallets)
+- Real-world governance patterns
+
+📖 **[View Detailed Voting Guide](VOTING_GUIDE.md)** - Complete explanation of how each tool works in the voting system
+
 ## 🛠️ Tech Stack
 
 - **[Next.js](https://nextjs.org/)** - React framework

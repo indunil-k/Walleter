@@ -76,6 +76,31 @@ const Home: NextPage = () => {
             </div>
           </Link>
 
+          {/* Voting DApp */}
+          {/* Real-World Voting DApp */}
+          <Link href="/real-voting" className="bg-gray-800 hover:bg-gray-700 p-6 rounded-xl transition group">
+            <div className="text-4xl mb-4">🏛️</div>
+            <h3 className="text-xl font-bold mb-2 group-hover:text-sky-400">Real-World Voting DApp</h3>
+            <p className="text-gray-400 text-sm mb-4">
+              Production-ready governance with Aiken smart contracts, Mesh SDK, and Blockfrost
+            </p>
+            <div className="text-xs text-blue-400">
+              ✓ Aiken Contracts • ✓ Mesh SDK • ✓ Blockfrost API • ✓ Multi-wallet
+            </div>
+          </Link>
+
+          {/* Demo Voting DApp */}
+          <Link href="/voting" className="bg-gray-800 hover:bg-gray-700 p-6 rounded-xl transition group">
+            <div className="text-4xl mb-4">🗳️</div>
+            <h3 className="text-xl font-bold mb-2 group-hover:text-sky-400">Demo Voting DApp</h3>
+            <p className="text-gray-400 text-sm mb-4">
+              Simple voting demo with "accept/reject" options and basic governance
+            </p>
+            <div className="text-xs text-yellow-400">
+              ✓ Basic Governance • ✓ Vote validation • ✓ Demo features
+            </div>
+          </Link>
+
         </div>
 
         {/* Current Wallet Assets */}

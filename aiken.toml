@@ -1,0 +1,18 @@
+name = "cardano-voting-dapp"
+version = "1.0.0"
+plutus = "v2"
+compiler = "1.0.28"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "1.9.0"
+source = "github"
+
+[config.default.network]
+network_id = 0 # Testnet
+
+[config.default.keys.payment]
+payment_key = "payment.skey"
+
+[config.default.keys.stake]
+stake_key = "stake.skey"

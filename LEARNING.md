@@ -1,6 +1,16 @@
 # 🚀 Walleter - Cardano Learning Hub
 
-A comprehensive Next.js application for learning Cardano blockchain development with hands-on examples of **Aiken**, **Mesh SDK**, **Blockfrost**, and **Wallet integration**.
+A comprehensive Next.js application for learning Cardano blockchain development with hands-on examples o```
+walleter/
+├── contracts/           # Aiken smart contracts
+│   ├── marketplace.ak   # NFT marketplace contract
+│   └── voting.ak        # Voting/governance contract
+├── src/pages/           # Next.js pages
+│   ├── index.tsx        # Learning hub homepage
+│   ├── hello.tsx        # Hello World contract
+│   ├── marketplace.tsx  # NFT marketplace
+│   ├── mint.tsx         # NFT minting tool
+│   └── voting.tsx       # Voting DApp interface**, **Mesh SDK**, **Blockfrost**, and **Wallet integration**.
 
 ## 🎯 What You'll Learn
 
@@ -117,6 +127,29 @@ Create unique digital assets:
 - Token policies
 - Asset creation
 
+### 🗳️ **Expert: Voting DApp**
+**Path:** `/voting`
+
+Build a complete decentralized governance system:
+- Create proposals with voting deadlines
+- Cast "accept" or "reject" votes securely
+- Prevent double-voting and spam attacks
+- Query voting results and history
+- Demonstrate all four tools working together
+
+**Key Concepts:**
+- **Aiken:** Complex state validation, anti-spam logic, vote counting
+- **Mesh SDK:** Transaction building, wallet signing, UI interactions
+- **Blockfrost:** Querying vote counts, submitting transactions, real-time updates
+- **Wallets:** Voter authentication, signature verification, identity proof
+
+**Security Features:**
+- One vote per wallet address
+- Minimum ADA requirement (anti-spam)
+- Time-locked voting periods
+- Immutable vote records
+- Creator-only proposal management
+
 ## 🔧 Project Structure
 
 ```
@@ -167,7 +200,12 @@ graph LR
    - Understand metadata standards
    - Practice asset management
 
-4. **Study the Code**
+4. **Master Voting DApp** (`/voting`)
+   - See all tools working together
+   - Understand governance patterns
+   - Practice complex validations
+
+5. **Study the Code**
    - Read the Aiken contracts
    - Understand Mesh SDK usage
    - See how Blockfrost integrates
