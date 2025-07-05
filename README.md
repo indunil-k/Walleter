@@ -1,13 +1,42 @@
-# Walleter - Crypto Wallet Viewer
+# Walleter - Cardano Learning Hub
 
-A Next.js TypeScript application that allows users to connect their wallets and view the assets in their wallets. This project provides a clean, modern interface for wallet integration and asset management.
+A comprehensive Next.js TypeScript application for learning Cardano blockchain development. This project demonstrates **Aiken smart contracts**, **Mesh SDK integration**, **Blockfrost API usage**, and **wallet connectivity** through hands-on examples.
 
-## Features
+## 🎯 Learning Objectives
 
-- 🔗 Connect to multiple wallet providers
-- 💰 View wallet assets and balances
-- 🎨 Modern, responsive UI built with TypeScript
-- ⚡ Fast performance with Next.js
+- **Aiken Smart Contracts** → Write secure validation logic
+- **Mesh SDK** → Build Web3 frontend applications  
+- **Blockfrost** → Interact with Cardano blockchain
+- **Wallets** → Connect users securely to dApps
+
+## 🚀 Learning Projects
+
+### 1. **Hello World Contract** (`/hello`)
+**Beginner-friendly smart contract basics**
+- Lock ADA with wallet signature
+- Unlock with secret message validation
+- Learn transaction building fundamentals
+
+### 2. **NFT Marketplace** (`/marketplace`) 
+**Intermediate marketplace functionality**
+- List NFTs for sale with smart contract escrow
+- Buy/sell with automatic payment validation
+- Advanced contract logic and security
+
+### 3. **NFT Minting** (`/mint`)
+**Advanced asset creation**
+- Create unique digital assets
+- Follow CIP-25 metadata standards
+- Understand token policies
+
+## 🛠️ Tech Stack
+
+- **[Next.js](https://nextjs.org/)** - React framework
+- **[TypeScript](https://www.typescriptlang.org/)** - Type safety  
+- **[Tailwind CSS](https://tailwindcss.com/)** - Styling
+- **[Mesh SDK](https://meshjs.dev/)** - Cardano integration
+- **[Aiken](https://aiken-lang.org/)** - Smart contract language
+- **[Blockfrost](https://blockfrost.io/)** - Blockchain API
 
 ## Getting Started
 
